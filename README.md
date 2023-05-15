@@ -1,7 +1,7 @@
 # customMacOsTerminal
 
 command : killport [YOUR PORT]
-"
+'
 killport() {
     if [ -z "$1" ]
     then
@@ -20,4 +20,4 @@ killport() {
         fi
     fi
 }
-"
+'
